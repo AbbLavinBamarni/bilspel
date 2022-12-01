@@ -75,4 +75,11 @@ public class CarController : MonoBehaviour
         trans.position = pos;
     }
 
+    void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "finishLine")
+        {
+            Debug.Log("FINISH!");
+        }
+    }
 }
