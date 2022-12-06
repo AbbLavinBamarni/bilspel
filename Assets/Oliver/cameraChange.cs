@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class cameraChange : MonoBehaviour
 {
+    public GameObject FrontCamera;
+    public GameObject BackCamera;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,10 +15,11 @@ public class cameraChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GameObject.Find("BackCam").SetActive(true);
-            GameObject.Find("FrontCam").SetActive(false);
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //GameObject.Find("FrontCam").SetActive(true);
+        //GameObject.Find("BackCam").SetActive(false);
+
+        //}
     }
 }
