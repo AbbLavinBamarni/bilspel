@@ -6,6 +6,8 @@ TagManager:
   tags:
   - finishLine
   - Car
+  - BackCam
+  - FrontCam
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Back
+  - Front
   - 
   - 
   - 
