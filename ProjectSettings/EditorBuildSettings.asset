@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Helen/meny.unity
     guid: 82b4431b87bd38845a2953fda385b3fb
+  - enabled: 1
+    path: Assets/Oliver/RoadTest.unity
+    guid: ac45f985b6559a946a0b1637bcdd7227
   m_configObjects: {}
