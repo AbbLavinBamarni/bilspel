@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Oliver/RoadTest.unity
     guid: ac45f985b6559a946a0b1637bcdd7227
+  - enabled: 1
+    path: Assets/Lavin/Bana2.unity
+    guid: d5241e72f9e86c94ba1654aa16d60372
   m_configObjects: {}
