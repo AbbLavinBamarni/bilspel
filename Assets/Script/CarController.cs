@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarController : MonoBehaviour
 {
@@ -65,7 +66,7 @@ public class CarController : MonoBehaviour
     {
         if (collision.gameObject.tag == "finishLine")
         {
-            Debug.Log("FINISH!");
+            SceneManager.LoadScene("Bana2");
         }
     }
 }

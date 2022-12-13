@@ -16,7 +16,7 @@ public class cameraChange : MonoBehaviour
 
     public TMP_Text starterCountdown;
 
-    public float starterTimer = 3.0f;
+    public static float starterTimer = 3.0f;
 
     // Start is called before the first frame update
     void Start()
