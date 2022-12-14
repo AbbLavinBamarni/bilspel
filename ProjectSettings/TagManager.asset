@@ -8,6 +8,7 @@ TagManager:
   - Car
   - BackCam
   - FrontCam
+  - Water
   layers:
   - Default
   - TransparentFX

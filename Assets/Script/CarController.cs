@@ -53,6 +53,10 @@ public class CarController : MonoBehaviour
 
     }
 
+    // public void StopCar() {
+        
+    // }
+
     void UpdateWheel(WheelCollider col, Transform trans)
     {
         Vector3 position;
