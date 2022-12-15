@@ -9,6 +9,7 @@ TagManager:
   - BackCam
   - FrontCam
   - Water
+  - finishGame
   layers:
   - Default
   - TransparentFX

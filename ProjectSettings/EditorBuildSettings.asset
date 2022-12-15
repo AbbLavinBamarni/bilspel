@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Helen/trackpick.unity
+    path: 
     guid: 8c99502e03041524ab81048ba5790c23
   - enabled: 1
     path: Assets/Helen/carpick.unity
@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Helen/meny.unity
     guid: 82b4431b87bd38845a2953fda385b3fb
+  - enabled: 1
+    path: Assets/Lavin/Bana2.unity
+    guid: d5241e72f9e86c94ba1654aa16d60372
+  - enabled: 1
+    path: Assets/Lavin/SlutScene.unity
+    guid: 55536fc609cf4654aa0006d509a23bd1
   m_configObjects: {}

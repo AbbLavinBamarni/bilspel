@@ -1818,17 +1818,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c03643bf4dfcac946b1a5423be3acf04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frontLeftWheelCollider: {fileID: 1427352742}
-  frontRightWheelCollider: {fileID: 1629552565}
-  rearLeftWheelCollider: {fileID: 532259230}
-  rearRightWheelCollider: {fileID: 1372195892}
-  frontLeftWheelTransform: {fileID: 1007458071}
-  frontRightWheelTransform: {fileID: 1007458073}
-  rearLeftWheelTransform: {fileID: 1007458075}
-  rearRightWheelTransform: {fileID: 1007458077}
-  maxSteeringAngle: 30
-  motorForce: 10000
-  brakeForce: 3000
+  frontRight: {fileID: 0}
+  frontLeft: {fileID: 0}
+  backRight: {fileID: 0}
+  backLeft: {fileID: 0}
+  frontRightTransform: {fileID: 0}
+  frontLeftTransform: {fileID: 0}
+  backRightTransform: {fileID: 0}
+  backLeftTransform: {fileID: 0}
+  acceleration: 500
+  breakingForce: 300
+  maxTurnAngle: 15
 --- !u!114 &2057755885
 MonoBehaviour:
   m_ObjectHideFlags: 0
