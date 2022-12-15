@@ -18,7 +18,7 @@ public class CarControl2 : MonoBehaviour
 
     [SerializeField] private GameObject StartPosition;
 
-    public float acceleration = 600f;
+    public float acceleration = 1000f;
     public float breakingForce = 1000f;
     public float maxTurnAngle = 15f;
 
