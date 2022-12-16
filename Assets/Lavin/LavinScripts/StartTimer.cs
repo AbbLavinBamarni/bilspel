@@ -19,15 +19,15 @@ public class StartTimer : MonoBehaviour
     public static float starterTimer = 3.0f;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        if (FrontCamera.activeInHierarchy == true)
-        {
-            Debug.Log("Hej");
-        }
-        Car.GetComponent<CarController>().enabled = false;
+    // void Start()
+    // {
+    //     if (FrontCamera.activeInHierarchy == true)
+    //     {
+    //         Debug.Log("Hej");
+    //     }
+    //     Car.GetComponent<CarControl2>().enabled = false;
 
-    }
+    // }
 
     // Update is called once per frame
     void Update()

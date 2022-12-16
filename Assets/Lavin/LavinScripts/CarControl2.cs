@@ -21,10 +21,13 @@ public class CarControl2 : MonoBehaviour
     public float acceleration = 1000f;
     public float breakingForce = 1000f;
     public float maxTurnAngle = 15f;
+    public Rigidbody RigidBodyCar;
 
-    private float currentAcceleration = 0f;
+    public float currentAcceleration = 0f;
     private float currentBreakForce = 0f;
     private float currentTurnAngle = 0f;
+
+
 
     private void FixedUpdate()
     {
@@ -55,9 +58,9 @@ public class CarControl2 : MonoBehaviour
 
     }
 
-    public void StopCar() {
+    // public void StopCar() {
         
-    }
+    // }
 
     void UpdateWheel(WheelCollider col, Transform trans)
     {
@@ -75,7 +78,9 @@ public class CarControl2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)) {
             transform.position = StartPosition.transform.position;
             transform.rotation = StartPosition.transform.rotation;
-            GetComponent<CarControl2>().StopCar();
+            // GetComponent<CarControl2>().StopCar();
+            RigidBodyCar.velocity = new Vector3(0,0,0);
+            currentAcceleration = 0f;
         }
     }
 
@@ -84,6 +89,9 @@ public class CarControl2 : MonoBehaviour
         if(col.gameObject.tag == "Water"){
             transform.position = StartPosition.transform.position;
             transform.rotation = StartPosition.transform.rotation;
+            RigidBodyCar.velocity = new Vector3(0,0,0);
+            currentAcceleration = 0f;
+
         }
 
         if (col.gameObject.tag == "finishLine")
@@ -92,11 +100,11 @@ public class CarControl2 : MonoBehaviour
         }
 
     }
-    void onCollisionEnter(Collision col)
-    {
-        if (col.gameObject.tag == "finishGame")
-        {
-            SceneManager.LoadScene("RoadTest");
-        }
-    }
+    // void onCollisionEnter(Collision col)
+    // {
+    //     if (col.gameObject.tag == "finishGame")
+    //     {
+    //         SceneManager.LoadScene("RoadTest");
+    //     }
+    // }
 }
